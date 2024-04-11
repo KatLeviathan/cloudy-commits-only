@@ -5,9 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloudy</title>
+    <script>
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+    </script>
 </head>
 <body>
-    
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+        <form action="/search" method="GET">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+      </form>
+      <div>
+        
+      </div>
+      <div class="today">
+        <p id="apiData"></p>
+      </div>
+      <div class="five-days">
+        <section class="card">
+            <header>date</header>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+          </section>
+          <section class="card">
+            <header>date</header>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+          </section>
+          <section class="card">
+            <header>date</header>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+          </section>
+          <section class="card">
+            <header>date</header>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+          </section>
+          <section class="card">
+            <header>date</header>
+            <p>temp</p>
+            <p>wind</p>
+            <p>humidity</p>
+          </section>
+      </div>
 </body>
 <script src="./assets/script.js"></script>
 </html>

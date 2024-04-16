@@ -1,0 +1,29 @@
+.header {
+    background-color: rgb(123, 0, 224);
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px;
+    padding: 1px;
+    padding-right: 300px;
+    text-align: right;
+}
+
+
+.today {
+    border: 1px black solid;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 12px;
+}
+
+.five-days {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  } 
+
+.card {
+    flex-wrap: wrap;
+    padding: 10px;
+    background-color: blue;
+    margin: 1px;
+  }
